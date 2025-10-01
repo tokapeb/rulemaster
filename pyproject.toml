@@ -1,0 +1,23 @@
+[project]
+name = "rulemaster"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Tokapeb"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gradio (>=5.47.0,<6.0.0)",
+    "numpy (>=2.3.3,<3.0.0)",
+    "sentence-transformers (>=5.1.1,<6.0.0)",
+    "transformers (>=4.56.2,<5.0.0)",
+    "huggingface-hub (>=0.35.1,<0.36.0)",
+    "pypdf2 (>=3.0.1,<4.0.0)",
+    "configparser (>=7.2.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

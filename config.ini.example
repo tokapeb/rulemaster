@@ -1,0 +1,10 @@
+[DEFAULT]
+testVaule=true
+
+[books]
+source_path=.\sources
+sources=[{"path": "forbiddenphb.pdf", "id": "Phb", "IgnoreFirstN": 17, "IgnoreLastN": 8, "waterMark": "Kornel koso( Odr#er 30519)509)"},
+	{"path": "forbiddenlandsdmg.pdf", "id": "DMG", "IgnoreFirstN": 7, "IgnoreLastN": 3, "waterMark": "Kornel koso( Odr#er 30519)509)"}]
+
+[model]
+path=r"C:\Users\tokap\.llama\checkpoints\Llama3.1-8B"
