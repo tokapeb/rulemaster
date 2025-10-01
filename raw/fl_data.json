@@ -1,0 +1,972 @@
+{
+    "forbidden_lands": {
+        "kin": {
+            "human": {
+                "Key Attribute": "Empathy",
+                "KIN TALENT": "Adaptive",
+                "TYPICAL PROFESSIONS": "All",
+                "TYPICAL FEMALE NAMES": ["Garmelda", "Halinde", "Nirmena", "Sindia", "Talene"],
+                "TYPICAL MALE NAMES": ["Brynde", "Hardar", "Orovald", "Pasinder", "Vergevil"],
+                "age": {
+                    "young": "16-25",
+                    "adult": "26-50",
+                    "old": "51+"
+                }
+            },
+            "elf": {
+                "KEY ATTRIBUTE": "Agility",
+                "KIN TALENT": "Inner Peace",
+                "TYPICAL PROFESSIONS": ["Druid", "Minstrel", "Hunter"],
+                "TYPICAL FEMALE NAMES": ["Bleinella", "Erimi", "Kriblenda", "Simene", "Vorovallia"],
+                "TYPICAL MALE NAMES": ["Dorm", "Harakrond", "Orgodan", "Radnar", "Vergello"],
+                "age": {
+                    "young": "",
+                    "adult": "1-100000",
+                    "old": ""
+                }
+            },
+            "half-elf": {
+                "KEY ATTRIBUTE": "Wits",
+                "KIN TALENT": "Psychic Power",
+                "TYPICAL PROFESSIONS": ["Druid", "Rogue", "Sorcerer"],
+                "TYPICAL FEMALE NAMES": ["Hivena", "Holerva", "Korena", "Sonilia", "Trimellia"],
+                "TYPICAL MALE NAMES": ["Gaverin", "Galivan", "Horderan", "Jyrman", "Sandarme"],
+                "age": {
+                    "young": "16-30",
+                    "adult": "31-100",
+                    "old": "101+"
+                }
+            },
+            "dwarf": {
+                "KEY ATTRIBUTE": "Strength",
+                "KIN TALENT": "True Grit",
+                "TYPICAL PROFESSIONS": ["Fighter", "Minstrel", "Peddler"],
+                "TYPICAL FEMALE NAMES": ["Hamhelda, Hilleva, Skorinda, Torbenia, Trindi"],
+                "TYPICAL MALE NAMES": ["Bodlo", "Gandeman", "Hargamar", "Tyrgar", "Wulfred"],
+                "age": {
+                    "young": "20-40",
+                    "adult": "41-80",
+                    "old": "81+"
+                }
+            },
+            "halfling": {
+                "KEY ATTRIBUTE": "Empathy",
+                "KIN TALENT": "Hard to Catch",
+                "TYPICAL PROFESSIONS": ["Minstrel", "Peddler", "Rogue"],
+                "TYPICAL FEMALE NAMES": ["Dondella", "Gilina", "Lylla", "Mollia", "Sanarsi"],
+                "TYPICAL MALE NAMES": ["Arland", "Brollo", "Hender", "Horgeman", "Vilgo"],
+                "age": {
+                    "young": "16-25",
+                    "adult": "26-60",
+                    "old": "61+"
+                }
+            },
+            "wolfkin": {
+                "KEY ATTRIBUTE": "Agility",
+                "KIN TALENT": "Hunting Instincts",
+                "TYPICAL PROFESSIONS": ["Druid", "Fighter", "Hunter"],
+                "TYPICAL FEMALE NAMES": ["Alani", "Einia", "Gaeta", "Keawa", "Lagini"],
+                "TYPICAL MALE NAMES": ["Alane", "Auhone", "Jabari", "Kekoa", "Naako"],
+                "age": {
+                    "young": "13-20",
+                    "adult": "21-40",
+                    "old": "41+"
+                }
+            },
+
+            "orc": {
+                "KEY ATTRIBUTE": "Strength",
+                "KIN TALENT": "Unbreakable",
+                "TYPICAL PROFESSIONS": ["Fighter", "Hunter", "Rogue"],
+                "TYPICAL FEMALE NAMES": ["Gerina", "Hiria", "Okande", "Shala", "Sirsene"],
+                "TYPICAL MALE NAMES": ["Archa", "Gol-Garra", "Hrassa", "Hrod", "Nanga"],
+                "age": {
+                    "young": "13-20",
+                    "adult": "21-45",
+                    "old": "46+"
+                }
+            },
+            "goblin": {
+                "KEY ATTRIBUTE": "Agility",
+                "KIN TALENT": "Nocturnal",
+                "TYPICAL PROFESSIONS": ["Hunter", "Rider", "Rogue"],
+                "TYPICAL FEMALE NAMES": ["Hargia", "Solga", "Someria", "Chilia", "Velatula"],
+                "TYPICAL MALE NAMES": ["Gormer", "Groms", "Hemdan", "Hulmar", "Nissel"],
+                "age": {
+                    "young": "16-25",
+                    "adult": "26-60",
+                    "old": "61+"
+                }
+            }
+        },
+        "profession": {
+            "Druid": {
+                "KEY ATTRIBUTE": "Wits",
+                "SKILLS": ["Endurance", "Survival", "Insight", "Healing", "Animal Handling"],
+                "TYPICAL NICKNAMES": ["Windwalker", "Raven Claw", "Wood Dweller"]
+            },
+            "Fighter": {
+                "KEY ATTRIBUTE": "Strength",
+                "SKILLS": ["Might", "Endurance", "Melee", "Crafting", "Move"],
+                "TYPICAL NICKNAMES": ["Gravemaker", "Grimjaw", "Ironboot"]
+            },
+            "Hunter": {
+                "KEY ATTRIBUTE": "Agility",
+                "SKILLS": ["Stealth", "Move", "Marksmanship", "Scouting", "Survival"],
+                "TYPICAL NICKNAMES": ["Wolfkiller", "Pathfinder", "Red Fox"]
+            },
+            "Minstrel": {
+                "KEY ATTRIBUTE": "Empathy",
+                "SKILLS": ["Lore", "Insight", "Manipulation", "Performance", "Healing"],
+                "TYPICAL NICKNAMES": ["Silvertounge", "Beguiler", "Madrigal"]
+            },
+            "Peddler": {
+                "KEY ATTRIBUTE": "Empathy",
+                "SKILLS": ["Crafting", "Sleight of Hand", "Scouting", "Insight", "Manipulation"],
+                "TYPICAL NICKNAMES": ["Goldtooth", "Silversmile", "The Honest"]
+            },
+            "Rider": {
+                "KEY ATTRIBUTE": "Agility",
+                "SKILLS": ["Endurance", "Melee", "Marksmanship", "Survival", "Animal Handling"],
+                "TYPICAL NICKNAMES": ["Spearhawk", "Black Mane" , "Windrider"]
+            },
+            "Rogue": {
+                "KEY ATTRIBUTE": "Agility",
+                "SKILLS": ["Melee", "Stealth", "Sleight of Hand", "Move", "Manipulation"],
+                "TYPICAL NICKNAMES": ["Half-Finger", "Redeye", "The Rat"]
+            },
+            "Sorcerer": {
+                "KEY ATTRIBUTE": "Wits",
+                "SKILLS": ["Crafting", "Sleight of Hand", "Lore", "Insight", "Manipulation"],
+                "TYPICAL NICKNAMES": ["Rootheart", "Greycape", "The Wise"]
+            }
+        },
+        "STARTING ATTRIBUTE POINTS": {
+            "young": 15,
+            "adult": 14,
+            "old": 13
+        },
+        "STARTING SKILL POINTS": {
+            "young": 8,
+            "adult": 10,
+            "old": 12
+        },
+        "STARTING GENERAL TALENTS": {
+            "young": 1,
+            "adult": 2,
+            "old": 3
+        },
+        "STARTING REPUTATION": {
+            "young": 0,
+            "adult": 1,
+            "old": 2
+        },
+        "SKILLS": [
+            {
+                "skill": "Might",
+                "related attribute": "STRENGTH"
+            },
+            {
+                "skill": "Endurance",
+                "related attribute": "STRENGTH"
+            },
+            {
+                "skill": "Melee",
+                "related attribute": "STRENGTH"
+            },
+            {
+                "skill": "Crafting",
+                "related attribute": "STRENGTH"
+            },
+            {
+                "skill": "Stealth",
+                "related attribute": "AGILITY"
+            },
+            {
+                "skill": "Sleight of Hand",
+                "related attribute": "AGILITY"
+            },
+            {
+                "skill": "Move",
+                "related attribute": "AGILITY"
+            },
+            {
+                "skill": "Marksmanship",
+                "related attribute": "AGILITY"
+            },
+            {
+                "skill": "Scouting",
+                "related attribute": "WITS"
+            },
+            {
+                "skill": "Lore",
+                "related attribute": "WITS"
+            },
+            {
+                "skill": "Survival",
+                "related attribute": "WITS"
+            },
+            {
+                "skill": "Insight",
+                "related attribute": "WITS"
+            },
+            {
+                "skill": "Manipulation",
+                "related attribute": "EMPATHY"
+            },
+            {
+                "skill": "Performance",
+                "related attribute": "EMPATHY"
+            },
+            {
+                "skill": "Healing",
+                "related attribute": "EMPATHY"
+            },
+            {
+                "skill": "Animal Handling",
+                "related attribute": "EMPATHY"
+            }
+        ],
+        "DIFFICULTY MODIFICATIONS": {
+            "Trivial": 3,
+            "Simple": 2,
+            "Easy": 1,
+            "Average": 0,
+            "Demanding": -1,
+            "Hard": -2,
+            "Formidable": -3
+        },
+        "ARTIFACT DICE RESULTS": {
+            "6": 1,
+            "7": 1,
+            "8": 2,
+            "9": 2,
+            "10": 3,
+            "11": 3,
+            "12": 4
+        },
+        "TALENTS": {
+            "KIN TALENTS": {
+                "Human": "Adaptive",
+                "Elf": "Inner Peace",
+                "Half-Elf": "Psychic Power",
+                "Dwarf": "True Grit",
+                "Halfling": "Hard to Catch",
+                "Wolfkin": "Hunting Instincts",
+                "Orc": "Unbreakable",
+                "Goblin": "Nocturnal"
+            },
+            "PROFESSIONS TALENTS": {
+                "Druid": [
+                    "Path of Healing",
+                    "Path of Shifting Shapes",
+                    "Path of Sight"
+                ],
+                "Fighter": [
+                    "Path of The Blade",
+                    "Path of The Enemy",
+                    "Path of The Shield"
+                ],
+                "Hunter": [
+                    "Path of The Arrow",
+                    "Path of The Beast",
+                    "Path of The Forest"
+                ],
+                "Minstrel": [
+                    "Path of The Hymn",
+                    "Path of The Song",
+                    "Path of The Warcry"
+                ],
+                "Peddler": [
+                    "Path of Gold",
+                    "Path of Lies",
+                    "Path of Many Things"
+                ],
+                "Rider": [
+                    "Path of The Companion",
+                    "Path of The Knight",
+                    "Path of The Plains"
+                ],
+                "Rogue": [
+                    "Path of The Face",
+                    "Path of The Killer",
+                    "Path of Poison"
+                ],
+                "Sorcerer": [
+                    "Path of Blood",
+                    "Path of Death",
+                    "Path of Signs",
+                    "Path of Stone"
+                ]
+            },
+            "GENERAL TALENTS": [
+                "Ambidextrous",
+                "Axe Fighter",
+                "Berserker",
+                "Bowyer",
+                "Brawler",
+                "Builder",
+                "Chef",
+                "Cold Blooded",
+                "Defender",
+                "Dragonslayer",
+                "Executioner",
+                "Fast Footwork",
+                "Fast Shooter",
+                "Fearless",
+                "Firm Grip",
+                "Fisher",
+                "Hammer Fighter",
+                "Herbalist",
+                "Horseback Fighter",
+                "Incorruptible",
+                "Knife Fighter",
+                "Lightning Fast",
+                "Lockpicker",
+                "Lucky",
+                "Master of the Hunt",
+                "Melee Charge",
+                "Pack Rat",
+                "Pain Resistant",
+                "Pathfinder",
+                "Poisoner",
+                "Quartermaster",
+                "Quickdraw",
+                "Sailor",
+                "Sharpshooter",
+                "Sharp Tongue",
+                "Shield Fighter",
+                "Sixth Sense",
+                "Smith",
+                "Spear Fighter",
+                "Steady Feet",
+                "Sword Fighter",
+                "Tailor",
+                "Tanner",
+                "Threatening",
+                "Throwing Arm",
+                "Wanderer"
+            ]
+        }
+    },
+    "ACTIONS": {
+        "SLOW ACTIONS": [
+            {
+                "ACTION": "Slash",
+                "PREREQUISITE": "Edged or Blunt weapon",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Stab",
+                "PREREQUISITE": "Pointed weapon",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Punch/Kick",
+                "PREREQUISITE": "Unarmed",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Grapple",
+                "PREREQUISITE": "Unarmed",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Break free",
+                "PREREQUISITE": "You are grappled",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Shoot",
+                "PREREQUISITE": "Ranged weapon",
+                "SKILL": "Marksmanship"
+            },
+            {
+                "ACTION": "Persuade",
+                "PREREQUISITE": "The opponent can hear you",
+                "SKILL": "Manipulation"
+            },
+            {
+                "ACTION": "Taunt",
+                "PREREQUISITE": "The opponent can hear you",
+                "SKILL": "Performance"
+            },
+            {
+                "ACTION": "Cast Spell",
+                "PREREQUISITE": "You are a Druid or Sorcerer",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Flee",
+                "PREREQUISITE": "No enemy at Arm's Length",
+                "SKILL": "Move"
+            },
+            {
+                "ACTION": "Crawl",
+                "PREREQUISITE": "You are prone",
+                "SKILL": "Move"
+            },
+            {
+                "ACTION": "Charge",
+                "PREREQUISITE": "At near range",
+                "SKILL": "Melee Charge talent"
+            },
+            {
+                "ACTION": "Heal other",
+                "PREREQUISITE": "No enemy at Arm's Length",
+                "SKILL": "Healing or Performance"
+            }
+        ],
+        "FAST ACTIONS": [
+            {
+                "ACTION": "Dodge",
+                "PREREQUISITE": "",
+                "SKILL": "Move"
+            },
+            {
+                "ACTION": "Parry",
+                "PREREQUISITE": "Shield or Parrying weapon",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Draw weapon",
+                "PREREQUISITE": "",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Swing Weapon",
+                "PREREQUISITE": "Heavy weapon, must be performed right before a close combat attack",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Get Up",
+                "PREREQUISITE": "You are prone",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Shove",
+                "PREREQUISITE": "",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Disarm",
+                "PREREQUISITE": "Your target holds a weapon",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Feint",
+                "PREREQUISITE": "Enemy at Arm’s Length",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Run",
+                "PREREQUISITE": "No enemy at Arm's Length",
+                "SKILL": "Move (in rough zone)"
+            },
+            {
+                "ACTION": "Retreat",
+                "PREREQUISITE": "Enemy at Arm's Length",
+                "SKILL": "Move"
+            },
+            {
+                "ACTION": "Grapple Attack",
+                "PREREQUISITE": "You've Grappled an opponent",
+                "SKILL": "Melee"
+            },
+            {
+                "ACTION": "Ready Weapon",
+                "PREREQUISITE": "Ranged weapon",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Aim",
+                "PREREQUISITE": "Ranged, Short distance or more",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Power word",
+                "PREREQUISITE": "You are a Druid or Sorcerer",
+                "SKILL": ""
+            },
+            {
+                "ACTION": "Use item",
+                "PREREQUISITE": "Varies",
+                "SKILL": "Varies"
+            }
+
+        ]
+    },
+    "RANGE CATEGORIES": [
+        {
+            "RANGE": "Arm's Length",
+            "DESCRIPTION": "Right next to you",
+            "TYPICAL TERRAIN": ""
+        },
+        {
+            "RANGE": "Near",
+            "DESCRIPTION": "A few steps away, in the same zone as you",
+            "TYPICAL TERRAIN": "Small room, cave tunnel"
+        },
+        {
+            "RANGE": "Short",
+            "DESCRIPTION": "Up to 25 meters away, in a bordering zone",
+            "TYPICAL TERRAIN": "Dense forest, swamp, large hall"
+        },
+        {
+            "RANGE": "Long",
+            "DESCRIPTION": "Up to one hundred meters (four seg- ments) away",
+            "TYPICAL TERRAIN": "Forest, hills, city ruins, gigantic hall"
+        },
+        {
+            "RANGE": "Distant",
+            "DESCRIPTION": "As far as the eye can see",
+            "TYPICAL TERRAIN": "Plains, mountains"
+        }
+    ],
+    "FLEEING MODIFIER": {
+        "Near": -1,
+        "Short": 0,
+        "Long": 1,
+        "Open zone": -1,
+        "Rough Zone": 1
+    },
+    "SNEAK ATTACKS & AMBUSHES MODIFIER": {
+        "Arm's Length": -2,
+        "Near": -1,
+        "Short": 0,
+        "Long": 1
+    },
+    "ATTACK & DEFENSE MODIFIER": {
+        "Parry with weapon": {
+            "SLASH": 0,
+            "STAB": -2,
+            "PUNCH/KICK": 2
+        },
+        "Parry with shield": {
+            "SLASH": 0,
+            "STAB": 2,
+            "PUNCH/KICK": 2
+        },
+        "Dodge": {
+            "SLASH": 2,
+            "STAB": 0,
+            "PUNCH/KICK": 0
+        },
+        "Parry without Parrying weapon": {
+            "SLASH": -2,
+            "STAB": -2,
+            "PUNCH/KICK": -2
+        },
+        "Dodge without going prone": {
+            "SLASH": 0,
+            "STAB": -2,
+            "PUNCH/KICK": -2
+        }
+    },
+    "SHOOTING RANGE MODIFIER": {
+        "Arm's Length (defenseless)": 3,
+        "Arm's Length (active)": -3,
+        "Near": 0,
+        "Short": -1,
+        "Long": -2,
+        "Distant": -3
+    },
+    "WEAPONS": {
+        "MELEE WEAPONS": [
+            {
+                "WEAPON": "Unarmed",
+                "GRIP": 0,
+                "BONUS": 0,
+                "DAMAGE": 1,
+                "RANGE": "Arm",
+                "COST": 0,
+                "FEATURES": ["Blunt"]
+            },
+            {
+                "WEAPON": "Knife",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 1,
+                "RANGE": "Arm",
+                "COST": 1,
+                "FEATURES": ["Light", "Pointed"]
+            },
+            {
+                "WEAPON": "Dagger",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 1,
+                "RANGE": "Arm",
+                "COST": 2,
+                "FEATURES": ["Light", "Pointed", "Edged"]
+            },
+            {
+                "WEAPON": "Falchion",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 4,
+                "FEATURES": ["Edged", "Pointed"]
+            },
+            {
+                "WEAPON": "Shortsword",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 1,
+                "RANGE": "Arm",
+                "COST": 6,
+                "FEATURES": ["Edged", "Pointed", "Parrying"]
+            },
+            {
+                "WEAPON": "Broadsword",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 10,
+                "FEATURES": ["Edged", "Parrying", "Pointed"]
+            },
+            {
+                "WEAPON": "Longsword",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 18,
+                "FEATURES": ["Heavy", "Edged", "Parrying", "Pointed"]
+            },
+            {
+                "WEAPON": "Two-Handed Sword",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 3,
+                "RANGE": "Arm",
+                "COST": 40,
+                "FEATURES": ["Heavy", "Edged", "Pointed", "Parrying"]
+            },
+            {
+                "WEAPON": "Scimitar",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 8,
+                "FEATURES": ["Edged", "Pointed", "Parrying", "Hook"]
+            },
+            {
+                "WEAPON": "Handaxe",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 2,
+                "FEATURES": ["Edged", "Hook"]
+            },
+            {
+                "WEAPON": "Battleaxe",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 6,
+                "FEATURES": ["Heavy", "Edged", "Hook"]
+            },
+            {
+                "WEAPON": "Two-Handed Axe",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 3,
+                "RANGE": "Arm",
+                "COST": 24,
+                "FEATURES": ["Heavy", "Edged", "Hook"]
+            },
+            {
+                "WEAPON": "Mace",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 1,
+                "RANGE": "Arm",
+                "COST": 4,
+                "FEATURES": ["Blunt"]
+            },
+            {
+                "WEAPON": "Morningstar",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 8,
+                "FEATURES": ["Blunt"]
+            },
+            {
+                "WEAPON": "Warhammer",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 12,
+                "FEATURES": ["Blunt", "Hook"]
+            },
+            {
+                "WEAPON": "Flail",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 16,
+                "FEATURES": ["Blunt"]
+            },
+            {
+                "WEAPON": "Wooden Club",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 1,
+                "RANGE": "Arm",
+                "COST": 1,
+                "FEATURES": ["Blunt"]
+            },
+            {
+                "WEAPON": "Large Wooden Club",
+                "GRIP": 2,
+                "BONUS": 1,
+                "DAMAGE": 2,
+                "RANGE": "Arm",
+                "COST": 2,
+                "FEATURES": ["Heavy", "Blunt"]
+            },
+            {
+                "WEAPON": "Heavy Warhammer",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 3,
+                "RANGE": "Arm",
+                "COST": 22,
+                "FEATURES": ["Heavy", "Hook", "Blunt"]
+            },
+            {
+                "WEAPON": "Staff",
+                "GRIP": 2,
+                "BONUS": 1,
+                "DAMAGE": 1,
+                "RANGE": "Near",
+                "COST": 1,
+                "FEATURES": ["Blunt", "Hook", "Parrying"]
+            },
+            {
+                "WEAPON": "Short Spear",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 1,
+                "RANGE": "Near",
+                "COST": 2,
+                "FEATURES": ["Pointed"]
+            },
+            {
+                "WEAPON": "Long Spear",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 1,
+                "RANGE": "Near",
+                "COST": 4,
+                "FEATURES": ["Pointed"]
+            },
+            {
+                "WEAPON": "Pike",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Near",
+                "COST": 12,
+                "FEATURES": ["Heavy", "Pointed"]
+            },
+            {
+                "WEAPON": "Halberd",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 2,
+                "RANGE": "Near",
+                "COST": 30,
+                "FEATURES": ["Heavy", "Pointed", "Edged", "Hook"]
+            },
+            {
+                "WEAPON": "Trident",
+                "GRIP": 2,
+                "BONUS": 1,
+                "DAMAGE": 2,
+                "RANGE": "Near",
+                "COST": 6,
+                "FEATURES": ["Pointed", "Hook"]
+            }
+        ],
+        "RANGED WEAPONS": [
+            {
+                "WEAPON": "Rock",
+                "GRIP": 1,
+                "BONUS": 0,
+                "DAMAGE": 1,
+                "RANGE": "Near",
+                "COST": 0,
+                "FEATURES": ["Light"]
+            },
+            {
+                "WEAPON": "Throwing Knife",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 1,
+                "RANGE": "Near",
+                "COST": 1,
+                "FEATURES": ["Light"]
+            },
+            {
+                "WEAPON": "Throwing Axe",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 2,
+                "RANGE": "Near",
+                "COST": 2,
+                "FEATURES": []
+            },
+            {
+                "WEAPON": "Throwing Spear",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 1,
+                "RANGE": "Short",
+                "COST": 2,
+                "FEATURES": []
+            },
+            {
+                "WEAPON": "Sling",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 1,
+                "RANGE": "Short",
+                "COST": 1,
+                "FEATURES": ["Light"]
+            },
+            {
+                "WEAPON": "Short Bow",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 1,
+                "RANGE": "Short",
+                "COST": 6,
+                "FEATURES": ["Light"]
+            },
+            {
+                "WEAPON": "Long Bow",
+                "GRIP": 2,
+                "BONUS": 2,
+                "DAMAGE": 1,
+                "RANGE": "Long",
+                "COST": 12,
+                "FEATURES": []
+            },
+            {
+                "WEAPON": "Light Crossbow",
+                "GRIP": 2,
+                "BONUS": 1,
+                "DAMAGE": 2,
+                "RANGE": "Long",
+                "COST": 24,
+                "FEATURES": ["Loading is slow action"]
+            },
+            {
+                "WEAPON": "Heavy Crossbow",
+                "GRIP": 2,
+                "BONUS": 1,
+                "DAMAGE": 3,
+                "RANGE": "Long",
+                "COST": 40,
+                "FEATURES": ["Heavy", "Loading is slow action"]
+            }
+        ],
+        "SHIELDS": [
+            {
+                "WEAPON": "Small Shield",
+                "GRIP": 1,
+                "BONUS": 1,
+                "DAMAGE": 0,
+                "RANGE": "Arm",
+                "COST": 6,
+                "FEATURES": ["Light"]
+            },
+            {
+                "WEAPON": "Large Shield",
+                "GRIP": 1,
+                "BONUS": 2,
+                "DAMAGE": 0,
+                "RANGE": "Arm",
+                "COST": 15,
+                "FEATURES": []
+            }
+        ]
+    },
+    "TYPICAL COVER ARMOR RATING": {
+        "Furniture": 3,
+        "Wooden Door": 4,
+        "Tree Trunk": 5,
+        "Wooden Wall": 6,
+        "Stone Wall": 8
+    },
+    "ARMOR & HELMETS": [
+        {
+            "GEAR": "Leather",
+            "ARMOR RATING": 2,
+            "COST": 4,
+            "BODY PART": "Body",
+            "FEATURES": ["Light"]
+        },
+        {
+            "GEAR": "Studded Leather",
+            "ARMOR RATING": 3,
+            "COST": 6,
+            "BODY PART": "Body",
+            "FEATURES": []
+        },
+        {
+            "GEAR": "Chainmail",
+            "ARMOR RATING": 6,
+            "COST": 24,
+            "BODY PART": "Body",
+            "FEATURES": ["Heavy", "Armor Rating 3 against arrows and Stabs."]
+        },
+        {
+            "GEAR": "Plate Armor",
+            "ARMOR RATING": 8,
+            "COST": 80,
+            "BODY PART": "Body",
+            "FEATURES": ["Heavy", "Modifies Move by -2"]
+        },
+        {
+            "GEAR": "Studded Leather Cap",
+            "ARMOR RATING": 1,
+            "COST": 3,
+            "BODY PART": "Head",
+            "FEATURES": ["Light"]
+        },
+        {
+            "GEAR": "Open Helmet",
+            "ARMOR RATING": 2,
+            "COST": 8,
+            "BODY PART": "Head",
+            "FEATURES": ["Light"]
+        },
+        {
+            "GEAR": "Closed Helmet",
+            "ARMOR RATING": 3,
+            "COST": 18,
+            "BODY PART": "Head",
+            "FEATURES": []
+        },
+        {
+            "GEAR": "Great Helm",
+            "ARMOR RATING": 4,
+            "COST": 30,
+            "BODY PART": "Head",
+            "FEATURES": ["Modifies Scout by -2"]
+        }
+    ]
+
+}
